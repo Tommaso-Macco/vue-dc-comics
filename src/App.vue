@@ -17,18 +17,44 @@ export default {
   components: {
     Header,
     Main,
-    Footer
-  }
+    Footer,
+  },
 }
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
 
 <style lang="scss">
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 100%;
+  height: 100vh;
 }
 </style>
