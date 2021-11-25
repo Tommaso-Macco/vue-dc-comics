@@ -50,6 +50,11 @@ a {
   text-decoration: none;
 }
 
+.containerauto {
+    width:80%;
+    margin: auto;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

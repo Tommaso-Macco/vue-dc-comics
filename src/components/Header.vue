@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="hd-left">
-            <img src="../img/dc-logo.png" alt="Logo DC">
+            <img src="../assets/img/dc-logo.png" alt="Logo DC">
         </div>
         <div class="hd-right">
             <ul class="lnikstyle">
