@@ -52,6 +52,7 @@ a {
 
 .containerauto {
     width:80%;
+    height: 100%;
     margin: auto;
 }
 
