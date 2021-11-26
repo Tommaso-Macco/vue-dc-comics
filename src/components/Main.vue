@@ -10,6 +10,9 @@
                         <h3> {{ article.series }} </h3>
                     </div>
                 </div>
+                <div id="loadmore-buton">
+                    <a href="#">LOAD MORE</a>
+                </div>
             </div>
         </section>
 
@@ -215,4 +218,18 @@ export default {
     }
 }
 
+#loadmore-buton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    a{
+        text-decoration: none;
+        padding: 5px 30px;
+        background-color: blue;
+        color: #fff;
+        font-weight: 1000;
+        font-size: 15px;
+    }
+}
 </style>
